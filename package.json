@@ -1,0 +1,17 @@
+{
+  "name": "secure-user-management",
+  "version": "1.0.0",
+  "description": "A secure user management web application with vulnerability fixes applied",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "express": "^4.18.2",
+    "helmet": "^7.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "validator": "^13.11.0",
+    "winston": "^3.11.0"
+  }
+}
